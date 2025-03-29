@@ -2,6 +2,8 @@
 
 This is a simple interactive **Scissors–Paper–Rock** game built with HTML, CSS, and JavaScript. The player selects one of the options, and the computer (the "House") makes a random choice. The result is displayed with smooth animations and modern UI.
 
+[ Live Demo 👈](https://shakhzodusmanov.github.io/SCISSORS-PAPER-ROCK-JS/)
+
 ## ✨ Features
 
 - Smooth UI animations (pop-in effects)
@@ -24,9 +26,6 @@ This is a simple interactive **Scissors–Paper–Rock** game built with HTML, C
 
 2. Open the `index.html` file in your browser.
 
-## 🚀 Live Demo 👈
-
-[https://shakhzodusmanov.github.io/SCISSORS-PAPER-ROCK-JS/](https://shakhzodusmanov.github.io/SCISSORS-PAPER-ROCK-JS/)
 
 ## 📁 File Structure
 
