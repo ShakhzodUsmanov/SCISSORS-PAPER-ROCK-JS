@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rock Paper Scissors Lizard Spock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="game-header">
+        <div class="game-title">
+          <h1>
+            ROCK<br />
+            PAPER<br />
+            SCISSORS
+          </h1>
+        </div>
+
+        <div class="score-box-wrapper">
+          <div class="score-box">
+            <span class="score-label">Win</span>
+            <span class="score-number win-count">0</span>
+          </div>
+          <div class="score-box">
+            <span class="score-label">Lose</span>
+            <span class="score-number lose-count">0</span>
+          </div>
+        </div>
+      </header>
+      
+      <main>
+        <div class="game-result">
+          <div class="choice-container">
+            <p class="label">You Picked</p>
+            <div class="choice player-choice">
+              <img id="player-choice-img" src="img/icon-scissors.svg"  />
+            </div>
+          </div>
+
+          <div class="result-text">
+            <h2 id="result">You Lose</h2>
+            <button class="play-again">Play Again</button>
+          </div>
+
+          <div class="choice-container">
+            <p class="label">Computer Picked</p>
+            <div class="choice computer-choice">
+              <img id="computer-choice-img" src="img/icon-rock.svg"  />
+            </div>
+          </div>
+        </div>
+
+        <div class="interface">
+          <button onclick="start(0)" class="btn">
+            <img src="img/icon-scissors.svg" alt="rock" />
+          </button>
+          <button onclick="start(1)" class="btn">
+            <img src="img/icon-paper.svg" alt="rock" />
+          </button>
+          <button onclick="start(2)" class="btn">
+            <img src="img/icon-rock.svg" alt="rock" />
+          </button>
+        </div>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
