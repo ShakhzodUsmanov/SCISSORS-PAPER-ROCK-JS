@@ -52,7 +52,7 @@ function start(playerChoise) {
 
     computerDis.classList.remove("appear");
     playerDis.classList.remove("appear");
-  }, 400);
+  }, 1000);
 }
 
 function win() {
