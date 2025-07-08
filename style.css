@@ -205,6 +205,16 @@ body {
   transition: 0.1s;
 }
 
+.gelatine {
+  animation: gelatine 0.5s 2;
+}
+@keyframes gelatine {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.9, 1.1); }
+  50% { transform: scale(1.1, 0.9); }
+  75% { transform: scale(0.95, 1.05); }
+}
+
 @media (max-width: 600px) {
   .game-result {
     grid-template-columns: 1fr 1fr;

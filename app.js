@@ -21,8 +21,8 @@ let winCount = 0;
 let loseCount = 0;
 
 function start(playerChoise) {
-  computerDis.classList.add("appear");
-  playerDis.classList.add("appear");
+  computerDis.classList.add("gelatine");
+  playerDis.classList.add("gelatine");
   computerChoiceImg.src = "";
   playerChoiceImg.src = "";
 
@@ -43,8 +43,8 @@ function start(playerChoise) {
       showResult("lose");
     }
 
-    computerDis.classList.remove("appear");
-    playerDis.classList.remove("appear");
+    computerDis.classList.remove("gelatine");
+    playerDis.classList.remove("gelatine");
   }, 1000);
 }
 
