@@ -6,8 +6,8 @@ This is a simple interactive **Scissors–Paper–Rock** game built with HTML, C
 
 ## 📷 Previews
 
-<img src="./preview/preview-pc.png" alt="Desktop Preview" width="65%">
-<img src="./preview/preview-mobile.png" alt="Mobile Preview" width="25%">
+<img src="./preview/preview-pc.png" alt="Desktop Preview" width="64%">
+<img src="./preview/preview-mobile.png" alt="Mobile Preview" width="24%">
 
 ## ✨ Features
 
