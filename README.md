@@ -4,6 +4,11 @@ This is a simple interactive **Scissors–Paper–Rock** game built with HTML, C
 
 [ Live Demo 👈](https://shakhzodusmanov.github.io/SCISSORS-PAPER-ROCK-JS/)
 
+## 📷 Previews
+
+<img src="./preview/preview-pc.png" alt="Desktop Preview" width="65%">
+<img src="./preview/preview-mobile.png" alt="Mobile Preview" width="25%">
+
 ## ✨ Features
 
 - Smooth UI animations (pop-in effects)
