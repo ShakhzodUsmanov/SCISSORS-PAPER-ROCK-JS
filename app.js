@@ -11,6 +11,9 @@ const loseCountElem = document.querySelector(".lose-count");
 
 const playAgainElem = document.querySelector(".play-again");
 
+const btns = document.querySelectorAll("button.btn");
+
+
 const choise = [
   "img/icon-scissors.svg",
   "img/icon-paper.svg",
@@ -21,6 +24,9 @@ let winCount = 0;
 let loseCount = 0;
 
 function start(playerChoise) {
+  btns.forEach((btn) => {
+    btn.disabled = true;
+  });
   computerDis.classList.add("gelatine");
   playerDis.classList.add("gelatine");
   computerChoiceImg.src = "";
@@ -45,6 +51,9 @@ function start(playerChoise) {
 
     computerDis.classList.remove("gelatine");
     playerDis.classList.remove("gelatine");
+    btns.forEach((btn) => {
+      btn.disabled = false;
+    });
   }, 1000);
 }
 
